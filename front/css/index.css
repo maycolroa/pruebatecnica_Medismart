@@ -7,6 +7,7 @@
     --padding-container: 100px 0;
     --color_botomm_1: 
     #FF4820;
+
 }
 
 /* BODY */
@@ -90,6 +91,7 @@ body {
     justify-self: center;
     color: #fff;
     text-decoration: none;
+    padding-left: 100px;
     
 } 
 
@@ -102,9 +104,24 @@ body {
     border-radius: 2px;
 }
 
-.cta_1{
-    justify-self: center;
-    color: #fff;
-    text-decoration: none;
-    
+/* HERO CONTAINER */
+
+.hero__container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero__title {
+    font-size: 3rem;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.hero__paragraph {
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
