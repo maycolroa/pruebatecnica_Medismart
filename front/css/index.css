@@ -3,3 +3,9 @@
 :root {
     --color_1: #072D56;
 }
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--color_1);
+}
+
